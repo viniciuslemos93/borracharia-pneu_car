@@ -44,8 +44,11 @@ header {
 
 main {
     width: 800px;
-    margin: auto;
-    
+    margin: auto;    
+}
+.localidade {    
+    width: 100px;
+    height: 100px;    
 }
 footer {
     background-color: yellow;
