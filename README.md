@@ -1,9 +1,9 @@
 <h1 align="center">Borracharia Pneu Car</h1>
-<hr>
+
 Site que estou desenvolvendo da Borracharia do meu irmão, para divulgar seus serviços.
 Deploy: https://viniciuslemos93.github.io/borracharia-pneu_car/
 <hr>
-<h3> Projeto iniciado no dia 11/10/2022 e Atualmente trabalhando nele. </h3>
+<h3> Projeto iniciado no dia 10/10/2022 e Atualmente trabalhando nele. </h3>
 
 <h2 align="center">Tecnologias Usadas</h2>
 <div align="center">
