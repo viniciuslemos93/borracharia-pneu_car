@@ -4,7 +4,7 @@ Site que estou desenvolvendo da Borracharia do meu irmão, para divulgar seus se
 
 Deploy: https://viniciuslemos93.github.io/borracharia-pneu_car/
 <hr>
-<h3> Projeto iniciado no dia 10/10/2022 e Atualmente trabalhando nele. </h3>
+<h3> Projeto iniciado no dia 10/10/2022 e Pausado no momento. </h3>
 
 <h2 align="center">Tecnologias Usadas</h2>
 <div align="center">
