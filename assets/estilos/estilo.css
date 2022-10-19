@@ -46,14 +46,20 @@ main {
     width: 800px;
     margin: auto;    
 }
+section {
+    color: black;
+    background-color: yellow;
+}
 p {
     font-size: 1.5em;
 }
-.localidade {    
-    width: 100px;
-    height: 100px;    
+ul li {
+    text-align: center;
+    font-size: 2em;
+    list-style-position: inside;
 }
 footer {
+    margin-top: 10px;
     background-color: yellow;
     color: black;
     text-align: center;
