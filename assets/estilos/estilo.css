@@ -9,16 +9,14 @@
     padding: 0;
     margin: 0;
 }
-body {
-    background-color: #01244b;
-}
 
 /*Cabeçalho do site - Menu*/
 header {
     text-align: center;   
     height: 180px;
-    background-color: rgba(255, 0, 0, 0.450);
+    background-color: rgba(255, 0, 0, 0.800);
     display: flex;    
+    width: 100%;
 }
 #logo {
     margin: auto;
@@ -31,7 +29,7 @@ header {
     text-align: center;
 }
 .menu > a {
-    font-size: 2em;
+    font-size: 1.2em;
     margin: 15px;
     padding: 7px;
     text-decoration: none;
@@ -52,7 +50,6 @@ header {
 .endereco{
     color: black;
     text-align: center;
-    background-color: yellow;
     font-family: var(--fonte-destaque);
 }
 
@@ -69,6 +66,8 @@ main {
 }
 section {
     text-align: center;
+    margin-top: 20px;
+    margin: auto;
 }
 .flex-container{
     display: flex;
@@ -80,14 +79,15 @@ section {
     
   }
 .item {
-    width: 100px;
+    width: 200px;
     margin-left: 20px;
   }
 p {
     font-size: 1.5em;
+    color: black;
 }
 h1 {
-    color: yellow;
+    color: rgba(255, 0, 0, 0.600);
     border-radius: 10px;
     font-family: var(--fonte-1);
     font-size: 3em;
