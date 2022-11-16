@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&family=Staatliches&family=Wellfleet&display=swap');
+
+:root {
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-1: 'Sono', sans-serif;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -9,14 +16,15 @@ body {
 /*Cabeçalho do site - Menu*/
 header {
     text-align: center;   
-    height: 150px;
+    height: 180px;
     background-color: rgba(255, 0, 0, 0.450);
     display: flex;    
 }
 #logo {
     margin: auto;
-    margin-left: 20px;
-    display: flex;
+}
+.logo {
+    width: 600px;
 }
 .menu {
     margin: auto;
@@ -41,28 +49,62 @@ header {
     background-color: yellow;
 } /*FIM Cabeçalho do site - Menu*/
 
+.endereco{
+    color: black;
+    text-align: center;
+    background-color: yellow;
+    font-family: var(--fonte-destaque);
+}
+
 /*Início conteúdo do site*/
 main {
+    /*
     width: 800px;
-    margin: auto;    
+    margin: auto;
+    background-color: aqua;
+    */
+    /*background-image: url(../imagens/pneu.jpg);
+    background-repeat: no-repeat;
+    */
 }
 section {
-    color: black;
-    background-color: yellow;
+    text-align: center;
 }
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+    padding: 10px 15px;
+    
+  }
+.item {
+    width: 100px;
+    margin-left: 20px;
+  }
 p {
     font-size: 1.5em;
 }
+h1 {
+    color: yellow;
+    border-radius: 10px;
+    font-family: var(--fonte-1);
+    font-size: 3em;
+    border: 2px solid yellow;
+}
 ul li {
-    text-align: center;
-    font-size: 2em;
-    list-style-position: inside;
+    margin-top: 10px;
+    text-align: center;    
+    font-size: 3em;    
+    list-style-type: none;
+    border: 2px solid yellow;
+    color: yellow;
+    border-radius: 10px;
+    font-family: var(--fonte-1);
 }
 footer {
-    margin-top: 10px;
-    background-color: yellow;
+    margin-top: 15px;
     color: black;
     text-align: center;
-    padding: 7px;
-    font-size: 1.2em;
 }
