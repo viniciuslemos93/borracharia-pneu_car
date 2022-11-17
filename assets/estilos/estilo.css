@@ -118,14 +118,30 @@ main h2 {
     
 }
 main hr {
-    margin: 30px;
+    margin: 20px;
     color: var(--cor0);    
 }
 #localizacao {
     text-align: center;
     margin-bottom: 20px;
 }
-footer {        
-    color: black;
+#contato {
     text-align: center;
+    padding: 10px;
+}
+picture a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: var(--fonte-conteudo);    
+}
+footer {
+    margin: 10px 10px;
+}
+footer p {
+    color: var(--cor0);
+    font-weight: bold;
+    text-align: center;    
+}
+footer p a {
+    text-decoration: none;    
 }
