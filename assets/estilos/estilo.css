@@ -3,6 +3,10 @@
 :root {
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-1: 'Sono', sans-serif;
+    --cor0: #8F68F8;
+    --cor1: #5B5BD9;
+    --cor2: #7193F0;
+    --cor3: #5B9ED9;    
 }
 
 * {
@@ -12,11 +16,14 @@
 
 /*Cabeçalho do site - Menu*/
 header {
+    
     text-align: center;   
     height: 180px;
-    background-color: rgba(255, 0, 0, 0.800);
+    background-color: var(--cor3);
     display: flex;    
     width: 100%;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
 }
 #logo {
     margin: auto;
@@ -47,37 +54,29 @@ header {
     background-color: yellow;
 } /*FIM Cabeçalho do site - Menu*/
 
-.endereco{
-    color: black;
-    text-align: center;
-    font-family: var(--fonte-destaque);
-}
-
 /*Início conteúdo do site*/
-main {
-    /*
-    width: 800px;
-    margin: auto;
-    background-color: aqua;
-    */
-    /*background-image: url(../imagens/pneu.jpg);
-    background-repeat: no-repeat;
-    */
+body {
+    
+    
 }
-section {
-    text-align: center;
-    margin-top: 20px;
+main {
+    width: 900px;
     margin: auto;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.300);
+    background-color: white;
 }
 .flex-container{
     display: flex;
-    max-width: 992px;
-    margin: auto;
-    width: 100%;
+    max-width: 992px;    
     min-width: 320px;
     padding: 10px 15px;
-    
+    align-items: center;
+    text-align: center;
+    margin: auto;
   }
+.descricao-item {
+    font-size: 1.5em;
+}
 .item {
     width: 200px;
     margin-left: 20px;
@@ -86,24 +85,40 @@ p {
     font-size: 1.5em;
     color: black;
 }
-h1 {
-    color: rgba(255, 0, 0, 0.600);
-    border-radius: 10px;
-    font-family: var(--fonte-1);
-    font-size: 3em;
-    border: 2px solid yellow;
+main img {
+    border-radius: 30%;    
 }
-ul li {
-    margin-top: 10px;
-    text-align: center;    
+main h1 {
+    color: var(--cor1);
+    font-family: var(--fonte-1);
     font-size: 3em;    
-    list-style-type: none;
-    border: 2px solid yellow;
-    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
     border-radius: 10px;
+    margin-top: 20px;
+}
+main h2 {
+    font-size: 2em;
+    color: var(--cor2);    
+}
+main hr {
+    margin: 30px;
+    color: var(--cor0);    
+}
+ul li {    
+    text-align: center;    
+    font-size: 2em;    
+    list-style-type: disc;
+    font-weight: bold;
+    list-style-position: inside;
+    color: var(--cor2);    
     font-family: var(--fonte-1);
 }
-footer {
+#localizacao {
+    text-align: center;
+}
+footer {    
     margin-top: 15px;
     color: black;
     text-align: center;
