@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&family=Staatliches&family=Wellfleet&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Contrail+One&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
 
 :root {
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-1: 'Sono', sans-serif;
+    --fonte-conteudo: 'Contrail One', cursive;
+    --fonte-1: 'Vast Shadow', cursive;
     --cor0: #8F68F8;
     --cor1: #5B5BD9;
     --cor2: #7193F0;
@@ -15,15 +18,15 @@
 }
 
 /*Cabeçalho do site - Menu*/
-header {
-    
+header {    
     text-align: center;   
-    height: 180px;
-    background-color: var(--cor3);
+    height: 180px;    
     display: flex;    
     width: 100%;
     margin-bottom: 10px;
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
+    background-image: url(../imagens/fundo-capa.PNG);
+    background-color: black;
+    border-radius: 0px 0px 15px 15px ;
 }
 #logo {
     margin: auto;
@@ -39,10 +42,11 @@ header {
     font-size: 1.2em;
     margin: 15px;
     padding: 7px;
+    font-weight: bold;
     text-decoration: none;
-    font-family: var(--font_itens);
+    font-family: var(--fonte-destaque);
     color: white;
-    background-color: var(--cor_laranja_media);
+    background-color: var(--cor1);
     border: 1.2px solid white;
     border-radius: 15px;
     box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.363);
@@ -56,26 +60,26 @@ header {
 
 /*Início conteúdo do site*/
 body {
-    
-    
+    background-image: url(../imagens/fundo.png);
 }
 main {
     width: 900px;
     margin: auto;
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.300);
     background-color: white;
+    border-radius: 10px;    
 }
 .flex-container{
     display: flex;
     max-width: 992px;    
     min-width: 320px;
     padding: 10px 15px;
-    align-items: center;
-    text-align: center;
+    align-items: center;    
     margin: auto;
   }
 .descricao-item {
     font-size: 1.5em;
+    font-family: var(--fonte-conteudo);
 }
 .item {
     width: 200px;
@@ -85,41 +89,33 @@ p {
     font-size: 1.5em;
     color: black;
 }
-main img {
-    border-radius: 30%;    
+main img {    
+    margin: auto;
 }
 main h1 {
     color: var(--cor1);
     font-family: var(--fonte-1);
     font-size: 3em;    
-    font-weight: bold;
     text-align: center;
     background-image: linear-gradient(to right, var(--cor0), transparent);
     border-radius: 10px;
-    margin-top: 20px;
+    margin: 10px 0px;
 }
 main h2 {
-    font-size: 2em;
-    color: var(--cor2);    
+    font-size: 2em;    
+    color: var(--cor2);
+    font-family: var(--fonte-conteudo);
+    
 }
 main hr {
     margin: 30px;
     color: var(--cor0);    
 }
-ul li {    
-    text-align: center;    
-    font-size: 2em;    
-    list-style-type: disc;
-    font-weight: bold;
-    list-style-position: inside;
-    color: var(--cor2);    
-    font-family: var(--fonte-1);
-}
 #localizacao {
     text-align: center;
+    margin-bottom: 20px;
 }
-footer {    
-    margin-top: 15px;
+footer {        
     color: black;
     text-align: center;
 }
