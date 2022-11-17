@@ -77,6 +77,16 @@ main {
     align-items: center;    
     margin: auto;
   }
+  .icones {
+    display: flex;
+    justify-content: space-between;
+  }
+  .icones img {
+    width: 100px;
+  }
+  .icones h2 {
+    margin: auto;
+  }
 .descricao-item {
     font-size: 1.5em;
     font-family: var(--fonte-conteudo);
