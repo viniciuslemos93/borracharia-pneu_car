@@ -114,8 +114,7 @@ main h1 {
 main h2 {
     font-size: 2em;    
     color: var(--cor2);
-    font-family: var(--fonte-conteudo);
-    
+    font-family: var(--fonte-conteudo);    
 }
 main hr {
     margin: 20px;
