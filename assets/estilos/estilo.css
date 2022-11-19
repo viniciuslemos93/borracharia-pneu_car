@@ -63,7 +63,8 @@ body {
     background-image: url(../imagens/fundo.png);
 }
 main {
-    width: 900px;
+    max-width: 900px;
+    min-width: 320px;
     margin: auto;
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.300);
     background-color: white;
@@ -74,7 +75,7 @@ main {
     max-width: 992px;    
     min-width: 320px;
     padding: 10px 15px;
-    align-items: center;    
+    align-items: center;
     margin: auto;
   }
   .icones {
@@ -101,6 +102,7 @@ p {
 }
 main img {    
     margin: auto;
+    width: 100%;
 }
 main h1 {
     color: var(--cor1);
@@ -136,6 +138,9 @@ picture a {
 footer {
     margin: 10px 10px;
 }
+.contato {
+    width: 50px;
+}
 footer p {
     color: var(--cor0);
     font-weight: bold;
@@ -143,4 +148,43 @@ footer p {
 }
 footer p a {
     text-decoration: none;    
+}
+
+@media screen and (max-width: 600px) {
+    #cabecalho {
+        width: 100%;
+    }
+    .logo {
+        width: 400px;
+    }
+    #cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu a {
+        font-size: 1em;
+        margin: 8px;
+        
+    }
+    .menu {
+        
+        width: 100%;
+    }
+    .icones h2 {
+        font-size: 1.5em;
+      }
+    .icones {
+        margin: auto;
+    }
+    #produtos .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+    #produtos .flex-container img.item{
+        
+        
+        
+    }
+
 }
