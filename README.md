@@ -5,6 +5,10 @@ Site que estou desenvolvendo da Borracharia do meu irmão, para divulgar seus se
 Deploy: https://viniciuslemos93.github.io/borracharia-pneu_car/
 <hr>
 
+<h1 align="center">Print do Resultado</h1>
+<div align="center">
+<img align="center" alt="Print do site da borracharia"width="500" src="./assets/imagens/print.PNG">
+
 <h2 align="center">Tecnologias Usadas</h2>
 <div align="center">
      <div style="display: inline_block margin-left:auto margin-rigth:auto"><br>
