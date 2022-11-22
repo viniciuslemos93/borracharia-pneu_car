@@ -155,23 +155,21 @@ footer p a {
 }
 
 @media screen and (max-width: 600px) {
+    
     #cabecalho {
         width: 100%;
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: column;
     }
     .logo {
         width: 400px;
     }
-    #cabecalho {
-        display: flex;
-        flex-direction: column;
-    }
     .menu a {
-        font-size: 1em;
-        margin: 8px;
-        
+        font-size: 1.1em;
+        margin: 6px;        
     }
-    .menu {
-        
+    .menu {        
         width: 100%;
     }
     .icones h2 {
@@ -187,5 +185,5 @@ footer p a {
     }
     .icones img {
         width: 75px;
-      }
+      }      
 }
