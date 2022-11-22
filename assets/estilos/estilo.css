@@ -6,10 +6,14 @@
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-conteudo: 'Contrail One', cursive;
     --fonte-1: 'Vast Shadow', cursive;
-    --cor0: #8F68F8;
+    /*--cor0: #8F68F8;
     --cor1: #5B5BD9;
     --cor2: #7193F0;
-    --cor3: #5B9ED9;    
+    --cor3: #5B9ED9;*/
+    --cor0: #FFE840;
+    --cor1: #E3AF24;
+    --cor2: #FAA534;
+    --cor3: #E36624;
 }
 
 * {
@@ -26,7 +30,7 @@ header {
     margin-bottom: 10px;
     background-image: url(../imagens/fundo-capa.PNG);
     background-color: black;
-    border-radius: 0px 0px 15px 15px ;
+    border-radius: 0px 0px 15px 15px;
 }
 #logo {
     margin: auto;
@@ -46,7 +50,7 @@ header {
     text-decoration: none;
     font-family: var(--fonte-destaque);
     color: white;
-    background-color: var(--cor1);
+    background-color: var(--cor0);
     border: 1.2px solid white;
     border-radius: 15px;
     box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.363);
@@ -55,7 +59,7 @@ header {
 }
 .menu a:hover {
     color: black;
-    background-color: yellow;
+    background-color: var(--cor3);
 } /*FIM Cabeçalho do site - Menu*/
 
 /*Início conteúdo do site*/
