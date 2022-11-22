@@ -94,7 +94,7 @@ main {
   }
 .descricao-item {
     font-size: 1.5em;
-    font-family: var(--fonte-conteudo);
+    font-family: var(--fonte-conteudo);    
 }
 .item {
     width: 200px;
@@ -146,7 +146,7 @@ footer {
     width: 50px;
 }
 footer p {
-    color: var(--cor0);
+    color: var(--cor3);
     font-weight: bold;
     text-align: center;    
 }
