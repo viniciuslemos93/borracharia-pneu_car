@@ -196,5 +196,9 @@ footer p a {
     }
     .icones img {
         width: 75px;
-      }      
+      }
+    .container-contato {
+        display: flex;
+        flex-direction: column;
+    }
 }
