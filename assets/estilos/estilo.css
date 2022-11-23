@@ -89,8 +89,7 @@ main {
   }
   .icones {
     display: flex;
-    justify-content: space-between;
-    /*padding-top: 175px;*/
+    justify-content: space-between;    
   }
   .icones img {
     width: 100px;
@@ -142,7 +141,9 @@ main hr {
 #contato a {
     text-decoration: none;    
 }
-#contato a {
+.container-contato {
+    display: flex;
+    justify-content: space-evenly;
     
 }
 .contato {/*Estilização dos ícones de contato*/
@@ -165,6 +166,20 @@ footer p a {
     text-decoration: none;
 }
 
+/*Ajustando responsividade para Tablets*/
+@media screen and (max-width: 1150px) {
+    #cabecalho {
+        width: 100%;
+        font-size: 1em;
+        display: flex;
+        
+        padding-bottom: 10px;
+    }
+
+}
+
+
+/*Responsividade para Mobile*/
 @media screen and (max-width: 600px) {
     
     #cabecalho {
@@ -172,6 +187,7 @@ footer p a {
         font-size: 0.8em;
         display: flex;
         flex-direction: column;
+        padding-bottom: 10px;
     }
     .logo {
         width: 400px;
@@ -188,11 +204,13 @@ footer p a {
       }
     .icones {
         margin: auto;
+        justify-content: space-evenly;
     }
     #produtos .flex-container {
         display: flex;
         flex-direction: column;
-        align-items: center;        
+        margin: auto;
+        justify-content: space-evenly;
     }
     .icones img {
         width: 75px;
@@ -200,5 +218,6 @@ footer p a {
     .container-contato {
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
     }
 }
