@@ -25,15 +25,14 @@
 header {    
     text-align: center;   
     height: 180px;    
-    display: flex;    
+    display: flex;
     width: 100%;
     margin-bottom: 200px;
     background-image: url(../imagens/fundo-capa.PNG);
-    background-color: black;
+    /*background-color: rgba(0, 0, 0, 0.040);*/
     border-radius: 0px 0px 15px 15px;
     position: fixed;
-    top:0;
-    left: 0;
+    top: 0;
     scroll-padding-top: 0;
 }
 #logo {
@@ -70,10 +69,12 @@ header {
 body {
     background-image: url(../imagens/fundo.png);
 }
-main {
+main {    
     max-width: 900px;
     min-width: 320px;
-    margin: auto;    
+    margin: 195px auto 0 auto;
+    /*margin-top: 195px;*/
+    
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.300);
     background-color: white;
     border-radius: 10px;    
@@ -89,7 +90,7 @@ main {
   .icones {
     display: flex;
     justify-content: space-between;
-    padding-top: 175px;
+    /*padding-top: 175px;*/
   }
   .icones img {
     width: 100px;
