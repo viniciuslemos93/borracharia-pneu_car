@@ -137,27 +137,32 @@ main hr {
     margin-bottom: 20px;
 }
 #contato {
-    text-align: center;
-    padding: 10px;
+    text-align: center;    
 }
-picture a {
-    text-decoration: none;
+#contato a {
+    text-decoration: none;    
+}
+#contato a {
+    
+}
+.contato {/*Estilização dos ícones de contato*/
+    width: 50px;
+}
+#contato a {
     font-size: 1.2em;
-    font-family: var(--fonte-conteudo);    
+    font-family: var(--fonte-conteudo);
 }
 footer {
     margin: 10px 10px;
 }
-.contato {
-    width: 50px;
-}
 footer p {
     color: var(--cor3);
     font-weight: bold;
-    text-align: center;    
+    text-align: center;
+    font-size: 1em;
 }
 footer p a {
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
