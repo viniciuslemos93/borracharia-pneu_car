@@ -67,13 +67,12 @@ header {
 
 /*Início conteúdo do site*/
 body {
-    background-image: url(../imagens/fundo.png);
+    background-image: url(../imagens/fundo.png);    
 }
 main {    
     max-width: 900px;
     min-width: 320px;
-    margin: 195px auto 0 auto;
-    /*margin-top: 195px;*/
+    margin: 190px auto 0 auto;    
     
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.300);
     background-color: white;
@@ -173,26 +172,8 @@ min-width (min-width: 600px): aplica quando a tela for MAIOR que 600px.
 (min-width: 600px) and (max-width: 800px): aplica quando a tela for ENTRE 600px e 800px.
 */
 
-/*Responsividade para Tablets*/
-@media screen and (min-width: 801px) and (max-width: 1150px) {
-    #cabecalho {
-        width: 100%;
-        font-size: 0.9em;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 10px;
-    }
-    .logo {
-        width: 500px;
-    }
-    #produtos .flex-container{
-        justify-content: space-evenly;
-    }
-
-}
-
 /*Responsividade para Mobile*/
-@media screen and (min-width: 320px) and (max-width: 800px) {
+@media screen and (max-width: 576px) {
     
     #cabecalho {
         width: 100%;
@@ -231,5 +212,39 @@ min-width (min-width: 600px): aplica quando a tela for MAIOR que 600px.
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+}
+
+/*Responsividade para Tablets*/
+@media screen and (max-width: 768px) {
+    #cabecalho {
+        width: 100%;
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .logo {
+        width: 500px;
+    }
+    #produtos .flex-container{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .logo {
+        width: 500px;
+    }
+    #cabecalho {
+        width: 100%;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .logo {
+        width: 400px;
     }
 }
