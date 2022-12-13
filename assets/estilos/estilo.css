@@ -41,12 +41,8 @@ header {
 .logo {
     width: 600px;
 }
-span#burguer {
-    color: var(--cor0);
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
+span#burguer {    
+    display: none;
 }
 span#burguer:hover{
     background-color: white;
@@ -197,9 +193,17 @@ min-width (min-width: 600px): aplica quando a tela for MAIOR que 600px.
     .logo {
         width: 400px;
     }
-    
+    span#burguer {
+        color: var(--cor0);
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
     #itens_menu a {
         font-size: 1.1em;
+        display: grid;
+        flex-direction: row;
         margin: 6px;        
     }
     #itens_menu {    
