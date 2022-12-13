@@ -24,14 +24,13 @@
 /*Cabeçalho do site - Menu*/
 header {    
     text-align: center;   
-    height: 180px;    
+    min-height: 180px;    
     display: flex;
-    width: 100%;
-    margin-bottom: 200px;
+    width: 100%;    
     background-image: url(../imagens/fundo-capa.PNG);
     /*background-color: rgba(0, 0, 0, 0.040);*/
     border-radius: 0px 0px 15px 15px;
-    position: fixed;
+    position: relative;
     top: 0;
     border: 2px ridge var(--cor0);
 }
@@ -80,7 +79,7 @@ body {
 main {    
     max-width: 900px;
     min-width: 320px;
-    margin: 190px auto 0 auto;    
+    margin: 10px auto 0 auto;
     
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.300);
     background-color: white;
@@ -186,30 +185,33 @@ min-width (min-width: 600px): aplica quando a tela for MAIOR que 600px.
     #cabecalho {
         width: 100%;
         font-size: 0.8em;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 10px;
+        /*padding-bottom: 10px;*/
+        position: relative;
     }
     .logo {
         width: 400px;
     }
     span#burguer {
         color: var(--cor0);
-        display: block;
+        font-size: 2em;
+        display: flex;
+        margin: auto;
         text-align: center;
-        padding: 10px;
+        padding: 5px;
         cursor: pointer;
+        border-radius: 5px;
     }
     #itens_menu a {
         font-size: 1.1em;
         display: grid;
-        flex-direction: row;
-        margin: 6px;        
+        flex-direction: row;        
+        margin: 5px;        
     }
     #itens_menu {    
         width: 100%;
         display: none;
-    }
+        margin: auto;
+    }    
     .icones h2 {
         font-size: 1.5em;
       }
