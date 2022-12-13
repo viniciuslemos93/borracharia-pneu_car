@@ -41,11 +41,23 @@ header {
 .logo {
     width: 600px;
 }
-.menu {
+span#burguer {
+    color: var(--cor0);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burguer:hover{
+    background-color: white;
+    color: black;
+}
+#itens_menu {
+    display: block;
     margin: auto;
     text-align: center;
 }
-.menu > a {
+#itens_menu > a {
     font-size: 1.2em;
     margin: 15px;
     padding: 7px;
@@ -60,7 +72,7 @@ header {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.700);
     transition-duration: 0.5s;
 }
-.menu a:hover {
+#itens_menu a:hover {
     color: black;
     background-color: var(--cor3);
 } /*FIM Cabeçalho do site - Menu*/
@@ -185,12 +197,14 @@ min-width (min-width: 600px): aplica quando a tela for MAIOR que 600px.
     .logo {
         width: 400px;
     }
-    .menu a {
+    
+    #itens_menu a {
         font-size: 1.1em;
         margin: 6px;        
     }
-    .menu {        
+    #itens_menu {    
         width: 100%;
+        display: none;
     }
     .icones h2 {
         font-size: 1.5em;

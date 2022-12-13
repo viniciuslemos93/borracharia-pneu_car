@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/estilos/estilo.css">
     <link rel="shortcut icon" href="assets/imagens/icone-borracharia.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Borracharia Pneu-Car</title>
 </head>
 <body>    
@@ -16,8 +17,8 @@
             <img class="logo" src="assets/imagens/logotipo-borracharia.png" alt="logotipo borracharia pneu-car">
             </a>
         </picture>
-        
-            <nav class="menu">                
+            <span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>            
+            <nav id="itens_menu">                
                 <a href="#servicos">Serviços</a>
                 <a href="#produtos">Produtos</a>
                 <a href="#localizacao">Localização</a>
@@ -124,5 +125,14 @@
   <footer>
     <p>Site criado por <a href="https://www.linkedin.com/in/vinicius-lemos93/" target="_blank">Vinicius Lemos</a> | <a href="https://github.com/viniciuslemos93/" target="_blank">GitHub</a></p>
   </footer>
+  <script>
+    function clickMenu() {
+      if (itens_menu.style.display == 'block') {
+        itens_menu.style.display = 'none'
+      } else {
+        itens_menu.style.display = 'block'
+      }
+    }
+  </script>
 </body>
 </html>
