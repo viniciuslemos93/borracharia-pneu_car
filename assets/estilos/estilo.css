@@ -150,15 +150,15 @@ main hr {
 }
 .container-contato {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;    
     
 }
 .contato {/*Estilização dos ícones de contato*/
-    width: 50px;
+    width: 50px;    
 }
 #contato a {
     font-size: 1.2em;
-    font-family: var(--fonte-conteudo);
+    font-family: var(--fonte-conteudo);    
 }
 footer {
     margin: 10px 10px;
@@ -167,7 +167,7 @@ footer p {
     color: var(--cor3);
     font-weight: bold;
     text-align: center;
-    font-size: 1em;
+    font-size: 1em;    
 }
 footer p a {
     text-decoration: none;
@@ -204,8 +204,8 @@ min-width (min-width: 600px): aplica quando a tela for MAIOR que 600px.
     #itens_menu a {
         font-size: 1.1em;
         display: grid;
-        flex-direction: row;        
-        margin: 5px;        
+        flex-direction: row;
+        margin: 5px;
     }
     #itens_menu {    
         width: 100%;
@@ -231,7 +231,7 @@ min-width (min-width: 600px): aplica quando a tela for MAIOR que 600px.
     .container-contato {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-evenly;        
     }
 }
 
