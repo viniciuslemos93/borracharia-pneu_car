@@ -87,14 +87,14 @@ main {
 }
 .flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 992px;    
     min-width: 320px;
     padding: 10px 15px;
-    align-items: center;
-    margin: auto;
+    align-items: center;        
+    margin: 0px 10px;
   }
-  .icones {
+.icones {
     display: flex;
     justify-content: space-between;    
   }
@@ -110,8 +110,8 @@ main {
 }
 .item {
     width: 200px;
-    margin-left: 20px;
-  }
+    margin: 0 10px;
+}
 p {
     font-size: 1.5em;
     color: black;
