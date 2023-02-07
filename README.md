@@ -27,8 +27,19 @@
 
 <h1 align="center">Resultado</h1>
 <div align="center">
+
+### Desktop
+
 <img align="center" alt="Design do site" width="500" src="./assets/imagens/print.PNG">
 </div>
+
+<div align="center">
+
+### Mobile
+
+<img align="center" alt="Design do site" width="500" src="./assets/imagens/mobile.png">
+</div>
+
 
 &#xa0;
 
