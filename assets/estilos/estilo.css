@@ -76,6 +76,10 @@ span#burguer:hover{
 body {
     background-image: url(../imagens/fundo.png);    
 }
+.tarja-titulo {
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    border-radius: 3px;
+}
 main {    
     max-width: 900px;
     min-width: 320px;
