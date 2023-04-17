@@ -241,6 +241,13 @@ min-width (min-width: 600px): aplica quando a tela for MAIOR que 600px.
         margin: auto;
         justify-content: space-evenly;
     }
+    .produtos {
+        display: flex;
+        flex-direction: column;
+    }
+    .produtos img{
+        margin: 10px;
+    }
     .icones img {
         width: 75px;
       }
