@@ -24,6 +24,7 @@
 <p>Site que estou desenvolvendo da Borracharia do meu irmão, para divulgar seus serviços e captar mais clientes através do Google.</p>
 
 ### Deploy: https://viniciuslemos93.github.io/borracharia-pneu_car/
+### Hospedagem: https://borrachariapneucar.com.br/
 
 <h1 align="center">Resultado</h1>
 <div align="center">
